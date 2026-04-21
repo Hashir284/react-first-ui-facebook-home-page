@@ -1,7 +1,7 @@
 export const Asidetitle = (p) => {
     return (
         <div className={p.c}>
-            <i class={p.i}></i>
+            <i className={p.i}></i>
             {p.t}
         </div>
     )
@@ -9,7 +9,7 @@ export const Asidetitle = (p) => {
 export const Asidecontact = (p) => {
     return (
         <div className={p.c}>
-            <img src={p.src} class={p.i}></img>
+            <img src={p.src} className={p.i}></img>
             {p.t}
         </div>
     )
@@ -27,7 +27,7 @@ export const Mainpost = (p) => {
                 </div>
             </div>
             <div>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i className="fa-solid fa-ellipsis"></i>
             </div>
         </div>
 

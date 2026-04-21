@@ -9,23 +9,23 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='header-item1 logo'>
-          <i class="fb-logo fa-brands fa-facebook"></i>
+          <i className="fb-logo fa-brands fa-facebook"></i>
           <div className='input'>
-            <i class="fa-brands fa-sistrix"></i>
+            <i className="fa-brands fa-sistrix"></i>
             <input placeholder='Search facebook' />
           </div>
         </div>
         <div className='header-item2'>
-          <i class="active fa-solid fa-house"></i>
-          <i class="fa-solid fa-bell"></i>
-          <i class="fa-solid fa-video"></i>
+          <i className="active fa-solid fa-house"></i>
+          <i className="fa-solid fa-bell"></i>
+          <i className="fa-solid fa-video"></i>
           <img src='/2.jpeg' />
-          <i class="fa-solid fa-cart-shopping"></i>
-          <i class="fa-solid fa-users"></i>
-          <i class="fa-brands fa-facebook-messenger"></i>
+          <i className="fa-solid fa-cart-shopping"></i>
+          <i className="fa-solid fa-users"></i>
+          <i className="fa-brands fa-facebook-messenger"></i>
         </div>
         <div className='header-item3'>
-          <i class="fa-solid fa-gear"></i>
+          <i className="fa-solid fa-gear"></i>
         </div>
       </header>
       <div className='all-content'>
@@ -67,7 +67,7 @@ function App() {
                 <figcaption className="title">
                   My story
                 </figcaption>
-                <div className='pos-img-div my '><i class=" fa-solid fa-plus"></i></div>
+                <div className='pos-img-div my '><i className=" fa-solid fa-plus"></i></div>
               </figure>
 
 <Story 
@@ -104,7 +104,7 @@ function App() {
           <section className='post'>
             <img src='/h.jpeg' />
             <div>Add a post</div>
-            <i class="fa-solid fa-image"></i>
+            <i className="fa-solid fa-image"></i>
           </section>
 
           <section id='main-poster'>
@@ -226,7 +226,7 @@ function App() {
         <aside className='aside2'>
           <div className='page-title'>
             <h1>Contacts</h1>
-            <i class="fa-solid fa-ellipsis"></i>
+            <i className="fa-solid fa-ellipsis"></i>
           </div>
           <div className='aside-pages-con'>
 
