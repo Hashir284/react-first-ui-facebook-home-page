@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Jost','Quicksand, cursive', sans-serif !important;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+#root,
+.app {
+  width: 100%;
+  max-width: 1535px;
+}
+
+.app{
+  padding: 20px;
+}
+
+.App-header {
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  position: fixed;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 40px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.logo>div {
+  align-items: center;
+  display: flex;
+}
+
+.header-item1 {
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+.header-item2 {
+  margin-left: 10px;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+
+  i.active{
+    color: #1275EE;
+    padding-bottom: 11px;
+    margin-bottom: -2px;
+    align-self: end;
+    border-bottom: 2px solid #1275EE;
+  }
+  i{
+    color: #8F9297;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  img{
+    display: inline-block;
+    margin-bottom: 6px;
+    width: 40px;
+    transform: rotate(90deg);
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.header-item3 {
+  flex-basis: 100px;
+  flex-grow: 1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  i{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    color: #40434B;
+    height: 40px;
+    width: 40px;
+    background-color: #DADDE0;
+    border-radius: 50%;
+  }
+}
+
+.fb-logo{
+  font-size: 33px;
+  color: #1275ee;
+  margin-bottom: 5px;
+}
+
+.input{
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  background: #ECEDF1;
+  border-radius: 20px;
+  color: #83868D !important;
+  input, input:focus{
+    width: 170px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+    outline: none;
+    color: #9FA3A9;
+    font-weight: 450;
+    font-size: 16px;
+    background: #ECEDF1;
+  }
+}
+

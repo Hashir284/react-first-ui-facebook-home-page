@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all-content {
+    margin-top: 64.85px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    aside {
+        flex: 1;
+    }
+
+    main {
+        background-color: #F2F3F5;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 50px;
+        align-items: center;
+        flex: 2;
+    }
+}
+
+.story-sec{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+main figure {
+    height: 230px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    flex-basis: 100%;
+    position: relative;
+}
+
+.pos-img-div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+}
+
+.bg-img-story img{
+    width: 100%;
+    height: 230px;
+}
+
+.title{
+    position: absolute;
+    top: 185px;
+    color: #fff;
+    font-size: 20px;
+    left: 10px;
+}
+
+.story{
+    display: flex;
+    gap: 8px;
+    margin: 0 10px;
+}
+
+.my{
+    border-radius: 50%;
+    color: #fff;
+    border: 2px solid #fff;
+    background: #817D72;
+    height: 40px;width: 40px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.story-title{
+    margin-top: 17px;
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* aside */
+
+.aside1{
+    border-right: 2px solid #E7E8EA;
+    min-height: calc(100vh - 65px);
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.page-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.aside-pages-con{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-pages{
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+aside-pages i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.l-1>i{
+    color: #B10CF4;
+}
+
+.gaming i{color: #02BDFD;}
+.events i{color: #FF2571;}
+.fundraisers i{color: #fdad0f;}
+.memories i{color: #8f99a8;}
+.seemore i{color: #00e7ab;}
+.help i{color: #c5d7e1;}
+
+.aside1-msg{
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    padding: 0px 22px;
+}
+
+.post{
+    display: flex;
+    width: 80%;    
+    justify-content: space-between;
+    padding: 0 25px;
+    background: #fff;
+    align-items: center;
+    border-radius: 5px;
+    gap: 13px;
+
+    img{
+        cursor: pointer;
+        flex: 1;
+        border-radius: 50%;
+        max-width: 40px;
+        flex-basis: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    i{
+        cursor: pointer;
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;align-items: center;
+        background: #F2F3F5;
+        flex: 0.75;
+    }
+
+    div{
+        cursor: pointer;
+        text-align: center;
+        margin: 8px;
+        border-radius: 6px;
+        flex: 7;
+        background: #F2F3F5;
+        padding: 10px 20px;
+    }
+}
+
+.aside2 .aside-pages-con img{
+width: 40px;
+height: 40px;
+object-fit: cover;
+border-radius: 50%;
+}
+.aside2 .aside-pages-con .aside-pages{
+    display: flex;
+    align-items: center;
+    gap: 8px;  
+}
+.outline{
+    padding: 2px;
+    border: 2px solid #1275EE;
+}
+
+/* main post  */
+
+#main-poster{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-post{
+    border-radius: 3px;
+    background: #fff;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-post-img{
+    height: 300px;
+    width: 100%;
+}
+
+.mainpost-detailer{
+    display: flex;  
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 17px 25px 0px 25px;
+}
+
+.main-post-title{
+    padding: 0px 25px 0px;
+    font-size: 20px;
+}
+
+.post-id{
+    font-size: 20px;
+    font-weight: 650;
+    color: #232323;
+}
+
+.post-time{
+    color: #a09fa4;
+    font-size: 13px;
+}
+
+.mainpost-detailer>div{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.mainpost-detailer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
