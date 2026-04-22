@@ -23,6 +23,7 @@ font-family: 'Jost','Quicksand, cursive', sans-serif !important;
 }
 
 .App-header {
+  max-width: 1535px;
   top: 0;
   z-index: 1;
   background: #fff;
