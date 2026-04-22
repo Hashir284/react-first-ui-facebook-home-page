@@ -32,7 +32,7 @@ function App() {
         <aside className='aside1'>
           <div className='page-title'>
             <h1>Home</h1>
-            <a href='#'>Create</a>
+            <a href='https://github.com'>Create</a>
           </div>
           <div className='aside-pages-con'>
 
@@ -57,7 +57,7 @@ function App() {
 
             <div className='story-title'>
               <h2>Stories</h2>
-              <a href="#">See all</a>
+              <a href='https://github.com'>See all</a>
             </div>
 
             <div className='story'>
