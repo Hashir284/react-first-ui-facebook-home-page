@@ -238,7 +238,7 @@ function App() {
             <Asidecontact
               c='aside-pages'
               src="https://randomuser.me/api/portraits/men/75.jpg"
-              t='Jekole'
+              t='Also this section by using Props'
               i='outline img-c'
             />
 
