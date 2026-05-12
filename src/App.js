@@ -31,7 +31,7 @@ function App() {
 
         <aside className='aside1'>
           <div className='page-title'>
-            <h1>Home</h1>
+            <h1>Surge</h1>
             <a href='https://github.com'>Create</a>
           </div>
           <div className='aside-pages-con'>
